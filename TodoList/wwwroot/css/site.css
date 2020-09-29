@@ -181,3 +181,34 @@ app {
         display: block;
     }
 }
+.todoli
+{
+    list-style-type: none;
+}
+.todoBlock
+{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.todoBlock input
+{
+  margin-right:15px;
+}
+.todoBlock input:last-child
+{
+    margin-right: 0;
+}
+
+.todoBlock label
+{
+    margin-right: 15px;
+    height: calc(1.5em + .75rem + 2px);
+    width:calc(1.5em + .75rem + 2px);
+}
+.todoBlock input:checked ~label
+{
+    background-color: #28a745;
+}
